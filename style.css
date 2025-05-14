@@ -160,10 +160,13 @@
     border-top-left-radius: 30px;
     outline: solid rgba(255, 255, 255, .1) 3px;
     color: black;
-    padding: 20px 50px;
+    /* padding: 20px 50px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    min-height: 0px;
+    height: 0px;
+    overflow: hidden;
 }
 
 #days-con>div {

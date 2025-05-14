@@ -19,25 +19,25 @@
 
             <div id="search-con">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search City ">
+                <input type="text" placeholder="Search City">
             </div>
         </div>
 
         <div id="temp-con">
             <div id="temp">
-                <p>Today, Oct 18 5:10 pm</p>
+                <p>Today, <span id="date">Oct 18 5:10 pm</span></p>
                 <h1>
-                    16<sup><sup id="inner-sup">o</sup><sub>C</sub></sup>
+                    <span>16</span><sup><sup id="inner-sup">o</sup><sub>C</sub></sup>
                 </h1>
                 <div id="temp-change">
-                    <span>
+                    <span id="temp-min">
                         <i class="fa-solid fa-arrow-up"></i>
-                        <span> 17<sup>o</sup></span>
+                        <span><span>17</span><sup>o</sup></span>
                     </span>
 
-                    <span>
-                        <i class="fa-solid fa-arrow-up"></i>
-                        <span> 18<sup>o</sup></span>
+                    <span id="temp-max">
+                        <i class="fa-solid fa-arrow-down"></i>
+                        <span><span>18</span><sup>o</sup></span>
                     </span>
                 </div>
             </div>
@@ -48,17 +48,17 @@
 
         <div id="temp-info-con">
             <div class="temp-info">
-                <h4><i class="fa-solid fa-cloud-showers-water"></i> 23:00</h4>
+                <h4><i class="fa-solid fa-cloud-showers-water"></i> <span id="pressure">23</span> hPa</h4>
                 <p>Pressure</p>
             </div>
             <hr class="border-right">
             <div class="temp-info">
-                <h4><i class="fa-solid fa-wind"></i> 2 km/h</h4>
+                <h4><i class="fa-solid fa-wind"></i><span id="wind"> 2</span> km/h</h4>
                 <p>Wind</p>
             </div>
             <hr class="border-right">
             <div class="temp-info">
-                <h4><i class="fa-solid fa-droplet"></i> 34%</h4>
+                <h4><i class="fa-solid fa-droplet"></i> <span id="humidity">34</span>%</h4>
                 <p>Humidity</p>
             </div>
 
